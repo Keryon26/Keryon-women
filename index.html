@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#641c35">
+  <meta name="description" content="KERYON WOMEN empowers women with trusted reproductive, menstrual, pregnancy and newborn health education.">
+  <title>KERYON WOMEN | Her Body. Her Power. Her Future.</title>
+  <style>
+    :root {
+      --wine: #641c35;
+      --rose: #ead0d5;
+      --cream: #fffaf4;
+      --ink: #30242a;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: var(--cream);
+      color: var(--ink);
+      line-height: 1.7;
+    }
+
+    header {
+      background: var(--wine);
+      color: white;
+      padding: 22px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .logo { font-size: 1.3rem; font-weight: bold; letter-spacing: 2px; }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 18px;
+      font-size: 0.95rem;
+    }
+
+    .hero {
+      padding: 85px 7%;
+      text-align: center;
+      background: linear-gradient(135deg, #fffaf4, #f0dce0);
+    }
+
+    .eyebrow {
+      color: var(--wine);
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-size: 0.8rem;
+      font-weight: bold;
+    }
+
+    h1 {
+      color: var(--wine);
+      font-size: clamp(2.3rem, 6vw, 4.3rem);
+      line-height: 1.15;
+      margin: 18px auto;
+      max-width: 850px;
+    }
+
+    .hero p {
+      max-width: 650px;
+      margin: 20px auto;
+      font-size: 1.1rem;
+    }
+
+    .button {
+      display: inline-block;
+      background: var(--wine);
+      color: white;
+      padding: 13px 25px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 15px;
+    }
+
+    section { padding: 60px 7%; }
+
+    .section-title {
+      text-align: center;
+      color: var(--wine);
+      font-size: 2rem;
+      margin-top: 0;
+    }
+
+    .intro {
+      max-width: 760px;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 22px;
+      margin-top: 35px;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid #eadde0;
+      border-radius: 12px;
+      padding: 25px;
+    }
+
+    .card h3 { color: var(--wine); }
+
+    .icon { font-size: 2rem; }
+
+    .mission {
+      background: var(--wine);
+      color: white;
+      text-align: center;
+    }
+
+    .mission h2 { font-size: 2rem; }
+
+    .mission p { max-width: 720px; margin: auto; }
+
+    .notice {
+      background: #f4e9e7;
+      padding: 20px;
+      border-left: 4px solid var(--wine);
+      border-radius: 5px;
+      margin-top: 30px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 28px 7%;
+      background: #35101d;
+      color: white;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header { justify-content: center; text-align: center; }
+      nav a { margin: 0 7px; }
+      .hero { padding: 60px 6%; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">KERYON WOMEN</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#learn">Learn</a>
+      <a href="#mission">Our mission</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow">Knowledge. Dignity. Empowerment.</div>
+      <h1>Her Body. Her Power. Her Future.</h1>
+      <p>
+        A future where every woman and girl can access understandable
+        women's health information, make informed choices and feel
+        confident about her health.
+      </p>
+      <a class="button" href="#learn">Explore women's health</a>
+    </section>
+
+    <section id="about">
+      <div class="intro">
+        <h2 class="section-title">Welcome to KERYON WOMEN</h2>
+        <p>
+          We are building a women-centred health education platform
+          designed to make reliable information easier to understand
+          and access, beginning with our communities in Kenya.
+        </p>
+      </div>
+    </section>
+
+    <section id="learn">
+      <h2 class="section-title">Your health, your knowledge</h2>
+      <div class="cards">
+        <article class="card">
+          <div class="icon">🌸</div>
+          <h3>Menstrual Health</h3>
+          <p>Learn about periods, menstrual hygiene, cycle changes and when to seek care.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">💗</div>
+          <h3>Reproductive Health</h3>
+          <p>Explore contraception, reproductive wellbeing and informed health choices.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">🤰</div>
+          <h3>Pregnancy & Birth</h3>
+          <p>Understand antenatal care, preparing for birth and warning signs that need urgent attention.</p>
+        </article>
+
+        <article class="card">
+          <div class="icon">👶</div>
+          <h3>Mother & Baby</h3>
+          <p>Discover educational information about newborn care, breastfeeding and postnatal wellbeing.</p>
+        </article>
+      </div>
+
+      <div class="notice">
+        <strong>Important health note:</strong>
+        This website provides general education, not individual diagnosis
+        or treatment. For personal medical advice, consult a qualified
+        healthcare professional. Seek urgent care for emergencies.
+      </div>
+    </section>
+
+    <section class="mission" id="mission">
+      <h2>Our vision</h2>
+      <p>
+        To help build a world where women and girls are informed,
+        respected and empowered to make decisions about their bodies
+        and their futures.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>KERYON WOMEN</strong></p>
+    <p>Her Body. Her Power. Her Future.</p>
+    <p>Building healthier futures through education and dignity.</p>
+    <p>© 2026 KERYON WOMEN. All rights reserved.</p>
+  </footer>
+</body>
+</html>
